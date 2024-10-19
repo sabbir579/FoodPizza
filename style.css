@@ -1,0 +1,290 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+}
+
+h1,h2,h3,h4{
+    font-family: "Open Sans", sans-serif;
+}
+.myline{
+    width: 80%;
+    margin-inline: auto;
+}
+
+.myborder{
+    border: 1px solid rgb(0, 0, 0);
+}
+.texmother{
+    display: flex;
+    margin-top: 150px;
+    gap: 150px;
+}
+.left{
+    margin-top: 40px;
+    width: 400px;
+    }
+    
+
+.right{
+    height: 600px;
+    width: 400px;
+    background-color: black;
+    border-radius: 20px;
+   
+   
+}
+button{
+    height: 60px;
+    width: 180px;
+    border: 2px solid red;
+    border-radius: 30px;
+   background-color: white;
+   color: black;
+}
+button:hover{
+    background-color: black;
+    border: 0px;
+    color: white;
+}
+
+.icomother{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.ico1{
+    height: 150px;
+    width: 150px;
+    
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ico2{
+    height: 150px;
+    width: 150px;
+    
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ico3{
+    height: 150px;
+    width: 150px;
+    
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ico4{
+    height: 150px;
+    width: 150px;
+    
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.photomother{
+    margin-top: 100px;
+}
+.boxmother{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+   
+}
+
+.box1{
+    position: relative;
+    bottom: 200px;
+    height: 500px;
+    width: 400px;
+    background-color: white;
+   
+
+}
+.box2{
+    position: relative;
+    bottom: 200px;
+    height: 500px;
+    width: 400px;
+    background-color: white;
+   
+
+}
+.box3{
+    position: relative;
+    bottom: 200px;
+    height: 500px;
+    width: 400px;
+    background-color: white;
+
+}
+.tabmother{
+    display: flex;
+    justify-content: center;
+  position: relative;
+  bottom: 170px;
+    gap: 20px;
+}
+.tab1{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+   
+}
+
+.tab2{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    
+}
+
+.tab3{
+    
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    
+
+}
+.all{
+   padding-top: 100px;
+}
+
+.writermother{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+   line-height: 30px;
+
+  
+}
+
+.mom{
+    background-color:#E73D0C ;
+  
+}
+
+  
+
+.secbox{
+    height: 500px;
+    width: 550px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    padding: 40px;
+    position: relative;
+    bottom: 200px;  
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.302);
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+.pmother{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+}
+.baner{
+   display: flex;
+   gap: 50px;
+   padding-top: 50px;
+}
+.bannerleft{
+   
+    width: 60%;
+    
+}
+
+.bannerright{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.backgraound4{
+    background: url(./img/sd.jpg);
+    height: 700px;
+    background-position: center;
+}
+.bgmother{
+    display: flex;
+    justify-content: center;
+  
+   padding-top: 250px;
+    gap: 30px;
+   
+    
+   
+}
+.tav1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+  
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.tav2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+   
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    /* padding-top: 10px; */
+}
+.tav3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+  
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tav3 a{
+    color: #E73D0C;
+    margin-top: 25px;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background-color:#333333 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
